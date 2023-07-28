@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0000ff;
+    color: #ffffff;
+    padding: 13px;
+  }
+  
+  .logo {
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  #home {
+    background-color:rgb(235, 45, 45);
+  }
+  
+  #aboutme {
+    background-color:rgb(4, 53, 24);
+  }
+  
+  #education {
+    background-color:rgb(160, 95, 122);
+  }
+  
+  #projects {
+    background-color:rgb(128, 128, 128);
+  }
+  
+  #contact {
+    background-color:rgb(5, 5, 75);
+  }
+  
+  footer {
+    background-color: #862a2a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+  }
+  .section-bg-safforn {
+    background-color:#da6363;
+  }
+  
+  .section-bg-blue {
+    background-color: #206779;
+  }
+  
+  .photo-logo{
+    width:70px;
+    height:80px;
+  }
+  .icon {
+    margin-right: 5px;
+  }
+  .heading{
+  font-size:25px;
+  text-decoration:underline;
+  }
+  .education-list {
+    background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      color: #ffffff;
+  }
+  
+  .icon.fa-graduation-cap {
+    color: #f8bf69;
+  }
+  
+  .icon.fa-certificate {
+    color: #aee2f3;
+  }
+  
+  .icon.fa-calendar-alt {
+    color: #7dc57d;
+  }
+  
+  .icon.fa-map-marker-alt {
+    color: #6b0739;
+  }
+  .heading-list{
+    color:#df8888;
+  }
+  
+  .contact_content input {
+    border: 1px solid #a01818;
+    padding: 8px;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .contact {
+    color: #ffffff;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: 600;
+  }
+  .image {
+    width:40px;
+    height:50px;
+  }
+  .skill-test{
+    color:#dfdfdf
+  }
